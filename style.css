@@ -11,7 +11,17 @@ header {
     margin: 0px;
     align-items: center;
 }
-
+.foot1 {
+  
+    margin-top: -20px;
+}
+#foot2 {
+    font-size: 25px;
+    font-family: monospace;
+    /* display: flex; */
+    padding-top: -10px;
+    margin-top: -50px;
+}
 .long {
     font-size: 20px;
     display: flex;
@@ -127,6 +137,10 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 10;
 }
+.logo{
+    width: 190px;
+    height: 160px;
+}
 .pic {
     display: grid;
     justify-content: center;
@@ -181,12 +195,7 @@ text-align: center;
     /* align-items: center; */
     flex-wrap: wrap;
 }
-.foot1{
-    color: white;
-    background-color:  rgb(118, 118, 223);
-    border-radius: 5px;
-    
-}
+
 section button{
     padding: 9px;
    
@@ -215,19 +224,16 @@ section button{
 }
 
 @media screen and (min-width:320px){
-    
     .pic {
-        /* display: flex; */
         justify-content: center;
         place-items: center;
-        width: 20%;
         min-height: 200px;
-        padding: 10px 30px;
+        padding: 15px 35px;
         border: 1px solid rgb(204, 231, 208);
         border-radius: 25px;
         cursor: pointer;
-        width: 195px;
-        box-shadow: rgba(0, 0, 0, 0.02) 20px 20px 30px;
+        width: 230px;
+        box-shadow: rgb(3 2 2 / 17%) 20px 20px 30px;
         margin: 10px 60px;
         transition: all 0.2s ease 0s;
         position: relative;
@@ -294,11 +300,7 @@ section button{
         margin: 10px;
         flex-wrap: wrap;
     }
-    .foot1 {
-        color: white;
-        background-color: rgb(118, 118, 223);
-        border-radius: 5px;
-    }
+
     header {
         display: flex;
         background-color: #ffffff;
@@ -766,6 +768,24 @@ section button{
         flex-wrap: wrap;
         padding: -10px;
         margin: 0px;
+    }
+    section button {
+        padding: 9px;
+        border: 1px solid;
+        border-radius: 5px;
+        margin: 12px;
+        background: none;
+        /* height: 60px; */
+        /* width: 80px; */
+        display: flex;
+        font-size: 15px;
+        font-family: "monsterrat";
+        cursor: pointer;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
     }
 }
 
