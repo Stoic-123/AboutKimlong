@@ -33,8 +33,10 @@ header {
     display: flex;
     align-items: center;
 }
-.name{
-    padding-top: 10px;
+.name {
+    padding-top: 20px;
+    margin-top: -50px;
+    margin-bottom: -30px;
 }
 .row .fa {
     margin-left: 5px;
@@ -84,8 +86,10 @@ header {
     -moz-osx-font-smoothing: grayscale;
     
 }
-h2{
-    font-size: 23px;
+h2 {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #srch{
@@ -249,13 +253,13 @@ section button{
     section button {
         padding: 9px;
         border: 1px solid;
-        border-radius: 5px;
+        border-radius: 11px;
         margin: 12px;
         background: none;
-        height: 60px;
-        width: 80px;
+        height: 40px;
+        width: 50px;
         display: flex;
-        font-size: 15px;
+        font-size: 11px;
         font-family: "monsterrat";
         cursor: pointer;
         transition: 0.6s;
@@ -311,6 +315,11 @@ section button{
         flex-direction: column;
         align-items: center;
     }
+    h2 {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
     
 }
 @media screen and (min-width:420px){
@@ -322,6 +331,11 @@ section button{
         padding: 10px;
         margin: 0px;
         align-items: center;
+    }
+    h2 {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .btn01 {
         padding-bottom: 10px;
@@ -389,6 +403,25 @@ section button{
         margin-right: -15px;
         /* margin-left: 5px; */
     }
+    section button {
+        padding: 9px;
+        border: 1px solid;
+        border-radius: 11px;
+        margin: 12px;
+        background: none;
+        height: 40px;
+        width: 64px;
+        display: flex;
+        font-size: 11px;
+        font-family: "monsterrat";
+        cursor: pointer;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 @media screen and (min-width:520px){
     header {
@@ -399,6 +432,11 @@ section button{
         padding: 10px;
         margin: 0px;
         align-items: center;
+    }
+    h2 {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .btn01 {
         padding-bottom: 10px;
@@ -456,6 +494,24 @@ section button{
         margin-right: -15px;
         /* margin-left: 5px; */
     }
+    section button {
+        padding: 9px;
+        border: 1px solid;
+        border-radius: 11px;
+        margin: 12px;
+        background: none;
+        height: 45px;
+        width: 74px;
+        display: flex;
+        font-size: 13px;
+        font-family: "monsterrat";
+        cursor: pointer;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media screen and (min-width:620px){
     header {
@@ -466,6 +522,11 @@ section button{
         padding: 10px;
         margin: 0px;
         align-items: center;
+    }
+    h2 {
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .btn01 {
         padding-bottom: 10px;
@@ -482,6 +543,24 @@ section button{
         width: 55px;
         height: 52px;
         border-radius: 0 5px 5px 0px;
+    }
+    section button {
+        padding: 9px;
+        border: 1.5px solid;
+        border-radius: 12px;
+        margin: 12px;
+        background: none;
+        height: 50px;
+        width: 79px;
+        display: flex;
+        font-size: 14px;
+        font-family: "monsterrat";
+        cursor: pointer;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
     }
     #srch{
   
@@ -531,6 +610,11 @@ section button{
 
 }
 @media screen and (min-width:720px){
+    h2 {
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
     header {
         display: flex;
         background-color: #ffffff;
@@ -556,6 +640,24 @@ section button{
         width: 55px;
         height: 52px;
         border-radius: 0 5px 5px 0px;
+    }
+    section button {
+        padding: 9px;
+        border: 1.5px solid;
+        border-radius: 11px;
+        margin: 12px;
+        background: none;
+        height: 55px;
+        width: 85px;
+        display: flex;
+        font-size: 14px;
+        font-family: "monsterrat";
+        cursor: pointer;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
     }
     #srch{
   
@@ -623,6 +725,29 @@ section button{
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
+    }
+    h2 {
+        font-size: 19px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section button {
+        padding: 9px;
+        border: 1.5px solid;
+        border-radius: 11px;
+        margin: 12px;
+        background: none;
+        height: 55px;
+        width: 85px;
+        display: flex;
+        font-size: 14px;
+        font-family: "monsterrat";
+        cursor: pointer;
+        transition: 0.6s;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
     }
     .btn01 {
         padding-bottom: 10px;
@@ -711,6 +836,11 @@ section button{
 
 }
 @media screen and (min-width:920px){
+    h2 {
+        font-size: 19px;
+        display: flex;
+        flex-wrap: wrap;
+    }
     header {
         display: flex;
         background-color: #ffffff;
