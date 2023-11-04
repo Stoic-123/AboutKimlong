@@ -371,7 +371,7 @@ text-align: center;
         border-radius: 25px;
         cursor: pointer;
         width: 230px;
-        box-shadow: rgb(3 2 2 / 17%) 20px 20px 30px;
+        /* box-shadow: rgb(3 2 2 / 17%) 20px 20px 30px; */
         margin: 10px 60px;
         transition: all 0.2s ease 0s;
         position: relative;
