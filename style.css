@@ -1,3 +1,4 @@
+
 body{
     
     background-color: #fffefe;
@@ -14,7 +15,8 @@ header {
 }
 .foot1 {
   
-    margin-top: -20px;
+    margin-top: -10px;
+    margin-bottom: -60px;
 }
 #foot2 {
     font-size: 25px;
@@ -92,7 +94,8 @@ h2 {
 }
 
 #srch{
-  
+    font-family: 'Khmer', sans-serif;
+                                                
         background: #ededed none repeat scroll 0 0;
         border: 0 none;
         color: #333;
@@ -170,10 +173,11 @@ label{
 div{
     justify-content: end;
 }
-h1{
-    color:black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 10;
+h1 {
+    color: #433cd6;
+    font-family: 'Khmer', sans-serif;
+                                                
+    /* font-weight: 5; */
 }
 .logo{
     width: 190px;
@@ -241,7 +245,51 @@ text-align: center;
     padding: 10px;
     margin: 10px;
 }
+.wrapper {
+    padding-bottom: 40px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .icon{
+    margin: 0 20px;
+    cursor: pointer;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   z-index: 2;
+}
+.wrapper .icon span{
+    height: 50px;
+    position: relative;
+   z-index: 2;
 
+    width: 50px;
+    display: block;
+   
+    border-radius: 50px;
+    text-align: center;
+   
+}
+.wrapper .icon span i{
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+
+.wrapper .icon .tooltip::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #ffffff;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%)rotate(45deg);
+}
 @media screen and (min-width:320px){
     .btn5,.btn2,.btn3,.btn4{
         color: rgb(36, 43, 34);
@@ -346,7 +394,7 @@ text-align: center;
         width: 50px;
         display: flex;
         font-size: 11px;
-        font-family: "monsterrat";
+        font-family: monospace;
         cursor: pointer;
         transition: 0.6s;
         position: relative;
@@ -400,6 +448,8 @@ text-align: center;
         font-size: 15px;
         display: flex;
         flex-wrap: wrap;
+        font-family: 'Khmer', sans-serif;
+                                                
     }
     
 }
@@ -488,6 +538,8 @@ text-align: center;
         font-size: 15px;
         display: flex;
         flex-wrap: wrap;
+        font-family: 'Khmer', sans-serif;
+                                                
     }
     .btn01 {
         padding-bottom: 10px;
@@ -565,7 +617,7 @@ text-align: center;
         width: 64px;
         display: flex;
         font-size: 11px;
-        font-family: "monsterrat";
+        font-family: monospace;
         cursor: pointer;
         transition: 0.6s;
         position: relative;
@@ -654,6 +706,8 @@ text-align: center;
         font-size: 15px;
         display: flex;
         flex-wrap: wrap;
+        font-family: 'Khmer', sans-serif;
+                                                
     }
     .btn01 {
         padding-bottom: 10px;
@@ -721,7 +775,7 @@ text-align: center;
         width: 74px;
         display: flex;
         font-size: 13px;
-        font-family: "monsterrat";
+        font-family: monospace;
         cursor: pointer;
         transition: 0.6s;
         position: relative;
@@ -803,6 +857,8 @@ text-align: center;
         font-size: 15px;
         display: flex;
         flex-wrap: wrap;
+        font-family: 'Khmer', sans-serif;
+                                                
     }
     .btn01 {
         padding-bottom: 10px;
@@ -832,7 +888,7 @@ text-align: center;
         display: flex;
         justify-content: center;
         font-size: 14px;
-        font-family: "monsterrat";
+        font-family: monospace;
         cursor: pointer;
         transition: 0.6s;
         position: relative;
@@ -961,6 +1017,8 @@ text-align: center;
         font-size: 18px;
         display: flex;
         flex-wrap: wrap;
+        font-family: 'Khmer', sans-serif;
+                                                
     }
     header {
         display: flex;
@@ -998,7 +1056,7 @@ text-align: center;
         width: 85px;
         display: flex;
         font-size: 14px;
-        font-family: "monsterrat";
+        font-family: monospace;
         cursor: pointer;
         transition: 0.6s;
         position: relative;
@@ -1136,6 +1194,8 @@ text-align: center;
         font-size: 19px;
         display: flex;
         flex-wrap: wrap;
+        font-family: 'Khmer', sans-serif;
+                                                
     }
     .container{
         display: flex;
@@ -1152,7 +1212,7 @@ text-align: center;
         width: 85px;
         display: flex;
         font-size: 14px;
-        font-family: "monsterrat";
+        font-family: monospace;
         cursor: pointer;
         transition: 0.6s;
         position: relative;
@@ -1329,6 +1389,8 @@ text-align: center;
         font-size: 19px;
         display: flex;
         flex-wrap: wrap;
+        font-family: 'Khmer', sans-serif;
+                                                
     }
     header {
         display: flex;
@@ -1397,7 +1459,7 @@ text-align: center;
       
         display: flex;
         font-size: 15px;
-        font-family: "monsterrat";
+        font-family: monospace;
         cursor: pointer;
         transition: 0.6s;
         position: relative;
