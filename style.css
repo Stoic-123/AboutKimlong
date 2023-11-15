@@ -50,10 +50,15 @@ header {
         transform: translateX(0);
     }
 }
-footer{
-    animation-name: slideInleft ;
-    animation-duration: 1s;
+@keyframes slideInright{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
 }
+
 footer {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -70,6 +75,23 @@ footer {
   
     margin-top: -10px;
     margin-bottom: -60px;
+}
+.ani{
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-100%);
+
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+@media(prefers-reduced-motion){
+    .ani{
+        transition: none;
+    }
 }
 #email{
     color:#230303b3;
