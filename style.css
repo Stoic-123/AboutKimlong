@@ -3,6 +3,34 @@ body{
     
     background-color: #fff8f8;
 }
+html{
+    scroll-behavior: smooth;
+}
+.back-to-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    border-radius: 0.5rem;
+    text-decoration: none ;
+    padding: 0.5rem;
+    transition: 0.2s ease-out;
+}
+.back-to-top span{
+    color: white;
+    font-size: 2rem;
+    transition: 0.2s ease-out;
+}
+.back-to-top:hover{
+    background-color: #217d2f;
+}
+.back-to-top:hover span{
+    transform: translateY(-4px);
+   
+}
 .search-container {
     text-align: center;
 }
@@ -64,8 +92,9 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
+    position: sticky;
+    bottom: 50;
     flex-direction: column;
-    
 }
 .logo{
     animation-name: slideInleft ;
@@ -399,6 +428,9 @@ text-align: center;
         background-color: rgb(76, 128, 95);
         z-index: -1;
         transition: 0.8s;
+    }
+    .btn5:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+        color: rgb(197, 197, 197);
     }
     .btn5::before,.btn2::before,.btn3::before,.btn4::before{
         top: 0;
