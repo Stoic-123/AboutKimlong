@@ -406,6 +406,31 @@ text-align: center;
         width: 140px;
         height: 120px;
     }
+    .back-to-top{
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+        border-radius: 0.5rem;
+        text-decoration: none ;
+        padding: 0.5rem;
+        transition: 0.2s ease-out;
+    }
+    .back-to-top span{
+        color: white;
+        font-size: 2rem;
+        transition: 0.2s ease-out;
+    }
+    .back-to-top:hover{
+        background-color: #217d2f;
+    }
+    .back-to-top:hover span{
+        transform: translateY(-4px);
+       
+    }
     .btn5:hover,.btn2:hover,.btn3:hover,.btn4:hover{
         color: rgb(255, 255, 255);
     }
@@ -584,6 +609,31 @@ text-align: center;
 @media screen and (min-width:420px){
     .btn5,.btn2,.btn3,.btn4{
         color: rgb(36, 43, 34);
+    }
+    .back-to-top{
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: green;
+        border-radius: 0.5rem;
+        text-decoration: none ;
+        padding: 0.5rem;
+        transition: 0.2s ease-out;
+    }
+    .back-to-top span{
+        color: white;
+        font-size: 2rem;
+        transition: 0.2s ease-out;
+    }
+    .back-to-top:hover{
+        background-color: #217d2f;
+    }
+    .back-to-top:hover span{
+        transform: translateY(-4px);
+       
     }
     .btn5:hover,.btn2:hover,.btn3:hover,.btn4:hover{
         color: rgb(255, 255, 255);
