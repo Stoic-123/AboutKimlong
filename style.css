@@ -2,6 +2,7 @@
 body{
     
     background-color: #fff8f8;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -92,7 +93,7 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-    position: sticky;
+    
     bottom: 50;
     flex-direction: column;
 }
@@ -107,10 +108,10 @@ footer {
 }
 .ani{
     opacity: 0;
-    filter: blur(3px);
+    filter: blur(2px);
     transform: translateX(-100%);
 
-    transition: all 1s;
+    transition: all 1.5s;
 }
 .show{
     opacity: 1;
@@ -255,10 +256,15 @@ label{
 .btn5,.btn2,.btn3,.btn4{
     color: rgb(86, 255, 35);
 }
-.btn5:hover,.btn2:hover,.btn3:hover,.btn4:hover{
-    color: rgb(197, 197, 197);
+.btn5:hover,.btn2:hover,.btn3:hover,.btn4:hover,
+.btn5.active,.btn2.active,.btn3.active,.btn4.active
+{
+    color: rgb(255, 255, 255);
 }
-
+.pic{
+    animation-name: slideInleft ;
+    animation-duration: 1s;
+}
 .btn::before{
     content: "";
     position: absolute;
@@ -268,6 +274,9 @@ label{
     background-color: blueviolet;
     z-index: -1;
     transition: 0.8s;
+}
+.btn.active{
+    background-color: blueviolet;
 }
 .btn5::before,.btn2::before,.btn3::before,.btn4::before{
     top: 0;
